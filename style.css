@@ -1,0 +1,63 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+
+.card
+{padding: 60px; border: 1px solid #e7e7e7;  border-radius: 50px; position: relative; overflow: hidden; text-align: left; margin-top: 35px; background-color: #ffff;
+min-height: 100vh;
+display: flex;
+}
+
+
+.card img{
+    border-radius: 30px;
+    max-height: 298px;
+    
+    
+}
+.download-card{
+    background-image:url('/ddp.jpg');
+    padding: 60px; border: 1px solid #e7e7e7;box-sizing:border-box; border-radius: 30px; position: relative; overflow: hidden; text-align: left; margin-top: 35px; background-color: #ffff;
+   
+}
+.download-card h2{
+    text-transform: uppercase;
+}
+.download-card button{
+    display: inline-flexbox;
+    
+    margin-right: 4px;
+}
+
+.list a{
+    
+    list-style: circle; 
+
+}
+
+.header{
+    border-bottom: 1px solid gainsboro;
+}
+.copyright{
+
+   align-items: center; 
+   
+   
+   text-align: center;
+}
+
+.list{
+    text-align: left;
+    
+}
+.headings{
+    text-align: left;
+    font-size: 14px;
+    font-weight: 300px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}

@@ -7,20 +7,23 @@
 
 
 .card
-{padding: 60px; border: 1px solid #e7e7e7;  border-radius: 50px; position: relative; overflow: hidden; text-align: left; margin-top: 35px; background-color: #ffff;
+{padding: 30px; border: 1px solid #e7e7e7;  border-radius: 50px; position: relative; overflow: hidden; text-align: left; margin-top: 35px; background-color: #ffff;
 min-height: 100vh;
-display: flex;
 }
 
-
+.card p{
+    font-size: 20px;
+    font-weight: 600px;
+    color: rgb(17, 2, 2);
+}
 .card img{
     border-radius: 30px;
-    max-height: 298px;
+    
     
     
 }
 .download-card{
-    background-image:url('/ddp.jpg');
+    background-image:url('./ddp.jpg');
     padding: 60px; border: 1px solid #e7e7e7;box-sizing:border-box; border-radius: 30px; position: relative; overflow: hidden; text-align: left; margin-top: 35px; background-color: #ffff;
    
 }
@@ -33,11 +36,8 @@ display: flex;
     margin-right: 4px;
 }
 
-.list a{
-    
-    list-style: circle; 
 
-}
+
 
 .header{
     border-bottom: 1px solid gainsboro;
@@ -52,12 +52,56 @@ display: flex;
 
 .list{
     text-align: left;
+    list-style-type: none;
+
+
     
 }
+.list li::before {content: "•"; color:orangered;
+    display: inline-block; width: 1em;
+    margin-left: -1em}
+    
+
 .headings{
     text-align: left;
     font-size: 14px;
-    font-weight: 300px;
+    font-weight: 500;
     text-transform: uppercase;
     margin-bottom: 20px;
+    color: black;
+    
 }
+.mob{
+    display: none;
+}
+@media only screen and (min-width : 150px) and (max-width : 767px){
+
+    .lap{
+        display: none;
+    }
+    .mob{
+        display: block;
+    }
+    
+}
+.footer{
+    padding: 4px;
+    margin-top: 35px;
+    position: relative;
+    
+}
+.copyright a{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.nav-item a{
+    font-weight: 500;
+    color: black;
+    
+}
+.list a{
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+
